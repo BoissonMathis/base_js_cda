@@ -112,3 +112,16 @@ for(i = 0; i < 10; i++){
 
     console.log(recettes[i])
 }
+
+const jsonData = JSON.stringify(recettes);
+
+const fs = require('fs'); //import de file system
+const filePath = './recette.json'; // root vers le fichier JSON
+
+fs.writeFile(filePath, jsonData, (err) => { //writeFile permet d'écrire dans un fichier
+    if (err) { //on catch l'erreur si il y en a une et on return
+        console.error('Ca marche pas ' + err);
+        return;
+    }
+    console.log('Le fichier a été enregistré');
+});
