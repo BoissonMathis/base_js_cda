@@ -1,1 +1,518 @@
-[{"name":"mouton légumes vapeur poivre","ingredients":["viande de mouton","huile","epice poivre","carotte","aricot","patate","eau"],"duration":32,"ustensile":["poêle","casserole","cuiseur vapeur"]},{"name":"lapin légumes vapeur herbes de provence","ingredients":["viande de lapin","huile","epice herbes de provence","carotte","aricot","patate","eau"],"duration":29,"ustensile":["poêle","casserole","cuiseur vapeur"]},{"name":"poulet riz poivre","ingredients":["viande de poulet","huile","epice poivre","riz","eau"],"duration":24,"ustensile":["poêle","casserole"]},{"name":"poulet riz herbes de provence","ingredients":["viande de poulet","huile","epice herbes de provence","riz","eau"],"duration":24,"ustensile":["poêle","casserole"]},{"name":"poulet purée poivre","ingredients":["viande de poulet","huile","epice poivre","pattate","lait"],"duration":24,"ustensile":["poêle","casserole","presse purée"]},{"name":"mouton légumes vapeur herbes de provence","ingredients":["viande de mouton","huile","epice herbes de provence","carotte","aricot","patate","eau"],"duration":32,"ustensile":["poêle","casserole","cuiseur vapeur"]},{"name":"mouton légumes vapeur poivre","ingredients":["viande de mouton","huile","epice poivre","carotte","aricot","patate","eau"],"duration":32,"ustensile":["poêle","casserole","cuiseur vapeur"]},{"name":"lapin riz herbes de provence","ingredients":["viande de lapin","huile","epice herbes de provence","riz","eau"],"duration":27,"ustensile":["poêle","casserole"]},{"name":"poulet légumes vapeur poivre","ingredients":["viande de poulet","huile","epice poivre","carotte","aricot","patate","eau"],"duration":26,"ustensile":["poêle","casserole","cuiseur vapeur"]},{"name":"poulet purée herbes de provence","ingredients":["viande de poulet","huile","epice herbes de provence","pattate","lait"],"duration":24,"ustensile":["poêle","casserole","presse purée"]}]
+[
+  {
+    "name": "mouton légumes vapeur poivre",
+    "ingredients": [
+      "viande de mouton",
+      "huile",
+      "epice poivre",
+      "carotte",
+      "aricot",
+      "patate",
+      "eau"
+    ],
+    "duration": 32,
+    "ustensile": ["poêle", "casserole", "cuiseur vapeur"]
+  },
+  {
+    "name": "lapin riz poivre",
+    "ingredients": ["viande de lapin", "huile", "epice poivre", "riz", "eau"],
+    "duration": 27,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "mouton riz poivre",
+    "ingredients": ["viande de mouton", "huile", "epice poivre", "riz", "eau"],
+    "duration": 30,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "boeuf légumes vapeur curry",
+    "ingredients": [
+      "viande de boeuf",
+      "huile",
+      "epice curry",
+      "carotte",
+      "aricot",
+      "patate",
+      "eau"
+    ],
+    "duration": 35,
+    "ustensile": ["poêle", "casserole", "cuiseur vapeur"]
+  },
+  {
+    "name": "poulet riz poivre",
+    "ingredients": ["viande de poulet", "huile", "epice poivre", "riz", "eau"],
+    "duration": 24,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "poulet riz herbes de provence",
+    "ingredients": [
+      "viande de poulet",
+      "huile",
+      "epice herbes de provence",
+      "riz",
+      "eau"
+    ],
+    "duration": 24,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "boeuf riz poivre",
+    "ingredients": ["viande de boeuf", "huile", "epice poivre", "riz", "eau"],
+    "duration": 32,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "lapin riz herbes de provence",
+    "ingredients": [
+      "viande de lapin",
+      "huile",
+      "epice herbes de provence",
+      "riz",
+      "eau"
+    ],
+    "duration": 27,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "mouton purée herbes de provence",
+    "ingredients": [
+      "viande de mouton",
+      "huile",
+      "epice herbes de provence",
+      "pattate",
+      "lait"
+    ],
+    "duration": 30,
+    "ustensile": ["poêle", "casserole", "presse purée"]
+  },
+  {
+    "name": "poulet purée poivre",
+    "ingredients": [
+      "viande de poulet",
+      "huile",
+      "epice poivre",
+      "pattate",
+      "lait"
+    ],
+    "duration": 24,
+    "ustensile": ["poêle", "casserole", "presse purée"]
+  },
+  {
+    "name": "lapin pâtes herbes de provence",
+    "ingredients": [
+      "viande de lapin",
+      "huile",
+      "epice herbes de provence",
+      "pâtes",
+      "eau"
+    ],
+    "duration": 23,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "lapin riz curry",
+    "ingredients": ["viande de lapin", "huile", "epice curry", "riz", "eau"],
+    "duration": 28,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "poulet légumes vapeur curry",
+    "ingredients": [
+      "viande de poulet",
+      "huile",
+      "epice curry",
+      "carotte",
+      "aricot",
+      "patate",
+      "eau"
+    ],
+    "duration": 27,
+    "ustensile": ["poêle", "casserole", "cuiseur vapeur"]
+  },
+  {
+    "name": "poulet légumes vapeur herbes de provence",
+    "ingredients": [
+      "viande de poulet",
+      "huile",
+      "epice herbes de provence",
+      "carotte",
+      "aricot",
+      "patate",
+      "eau"
+    ],
+    "duration": 26,
+    "ustensile": ["poêle", "casserole", "cuiseur vapeur"]
+  },
+  {
+    "name": "mouton purée poivre",
+    "ingredients": [
+      "viande de mouton",
+      "huile",
+      "epice poivre",
+      "pattate",
+      "lait"
+    ],
+    "duration": 30,
+    "ustensile": ["poêle", "casserole", "presse purée"]
+  },
+  {
+    "name": "boeuf purée poivre",
+    "ingredients": [
+      "viande de boeuf",
+      "huile",
+      "epice poivre",
+      "pattate",
+      "lait"
+    ],
+    "duration": 32,
+    "ustensile": ["poêle", "casserole", "presse purée"]
+  },
+  {
+    "name": "boeuf purée curry",
+    "ingredients": [
+      "viande de boeuf",
+      "huile",
+      "epice curry",
+      "pattate",
+      "lait"
+    ],
+    "duration": 33,
+    "ustensile": ["poêle", "casserole", "presse purée"]
+  },
+  {
+    "name": "mouton légumes vapeur curry",
+    "ingredients": [
+      "viande de mouton",
+      "huile",
+      "epice curry",
+      "carotte",
+      "aricot",
+      "patate",
+      "eau"
+    ],
+    "duration": 33,
+    "ustensile": ["poêle", "casserole", "cuiseur vapeur"]
+  },
+  {
+    "name": "mouton pâtes herbes de provence",
+    "ingredients": [
+      "viande de mouton",
+      "huile",
+      "epice herbes de provence",
+      "pâtes",
+      "eau"
+    ],
+    "duration": 26,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "lapin purée curry",
+    "ingredients": [
+      "viande de lapin",
+      "huile",
+      "epice curry",
+      "pattate",
+      "lait"
+    ],
+    "duration": 28,
+    "ustensile": ["poêle", "casserole", "presse purée"]
+  },
+  {
+    "name": "mouton pâtes curry",
+    "ingredients": ["viande de mouton", "huile", "epice curry", "pâtes", "eau"],
+    "duration": 27,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "mouton pâtes poivre",
+    "ingredients": [
+      "viande de mouton",
+      "huile",
+      "epice poivre",
+      "pâtes",
+      "eau"
+    ],
+    "duration": 26,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "lapin légumes vapeur poivre",
+    "ingredients": [
+      "viande de lapin",
+      "huile",
+      "epice poivre",
+      "carotte",
+      "aricot",
+      "patate",
+      "eau"
+    ],
+    "duration": 29,
+    "ustensile": ["poêle", "casserole", "cuiseur vapeur"]
+  },
+  {
+    "name": "poulet purée herbes de provence",
+    "ingredients": [
+      "viande de poulet",
+      "huile",
+      "epice herbes de provence",
+      "pattate",
+      "lait"
+    ],
+    "duration": 24,
+    "ustensile": ["poêle", "casserole", "presse purée"]
+  },
+  {
+    "name": "lapin pâtes curry",
+    "ingredients": ["viande de lapin", "huile", "epice curry", "pâtes", "eau"],
+    "duration": 24,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "poulet légumes vapeur poivre",
+    "ingredients": [
+      "viande de poulet",
+      "huile",
+      "epice poivre",
+      "carotte",
+      "aricot",
+      "patate",
+      "eau"
+    ],
+    "duration": 26,
+    "ustensile": ["poêle", "casserole", "cuiseur vapeur"]
+  },
+  {
+    "name": "mouton riz curry",
+    "ingredients": ["viande de mouton", "huile", "epice curry", "riz", "eau"],
+    "duration": 31,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "lapin pâtes poivre",
+    "ingredients": ["viande de lapin", "huile", "epice poivre", "pâtes", "eau"],
+    "duration": 23,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "boeuf riz curry",
+    "ingredients": ["viande de boeuf", "huile", "epice curry", "riz", "eau"],
+    "duration": 33,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "poulet riz curry",
+    "ingredients": ["viande de poulet", "huile", "epice curry", "riz", "eau"],
+    "duration": 25,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "lapin purée poivre",
+    "ingredients": [
+      "viande de lapin",
+      "huile",
+      "epice poivre",
+      "pattate",
+      "lait"
+    ],
+    "duration": 27,
+    "ustensile": ["poêle", "casserole", "presse purée"]
+  },
+  {
+    "name": "boeuf purée herbes de provence",
+    "ingredients": [
+      "viande de boeuf",
+      "huile",
+      "epice herbes de provence",
+      "pattate",
+      "lait"
+    ],
+    "duration": 32,
+    "ustensile": ["poêle", "casserole", "presse purée"]
+  },
+  {
+    "name": "mouton riz herbes de provence",
+    "ingredients": [
+      "viande de mouton",
+      "huile",
+      "epice herbes de provence",
+      "riz",
+      "eau"
+    ],
+    "duration": 30,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "mouton légumes vapeur herbes de provence",
+    "ingredients": [
+      "viande de mouton",
+      "huile",
+      "epice herbes de provence",
+      "carotte",
+      "aricot",
+      "patate",
+      "eau"
+    ],
+    "duration": 32,
+    "ustensile": ["poêle", "casserole", "cuiseur vapeur"]
+  },
+  {
+    "name": "mouton purée curry",
+    "ingredients": [
+      "viande de mouton",
+      "huile",
+      "epice curry",
+      "pattate",
+      "lait"
+    ],
+    "duration": 31,
+    "ustensile": ["poêle", "casserole", "presse purée"]
+  },
+  {
+    "name": "boeuf légumes vapeur poivre",
+    "ingredients": [
+      "viande de boeuf",
+      "huile",
+      "epice poivre",
+      "carotte",
+      "aricot",
+      "patate",
+      "eau"
+    ],
+    "duration": 34,
+    "ustensile": ["poêle", "casserole", "cuiseur vapeur"]
+  },
+  {
+    "name": "lapin légumes vapeur herbes de provence",
+    "ingredients": [
+      "viande de lapin",
+      "huile",
+      "epice herbes de provence",
+      "carotte",
+      "aricot",
+      "patate",
+      "eau"
+    ],
+    "duration": 29,
+    "ustensile": ["poêle", "casserole", "cuiseur vapeur"]
+  },
+  {
+    "name": "lapin légumes vapeur curry",
+    "ingredients": [
+      "viande de lapin",
+      "huile",
+      "epice curry",
+      "carotte",
+      "aricot",
+      "patate",
+      "eau"
+    ],
+    "duration": 30,
+    "ustensile": ["poêle", "casserole", "cuiseur vapeur"]
+  },
+  {
+    "name": "lapin purée herbes de provence",
+    "ingredients": [
+      "viande de lapin",
+      "huile",
+      "epice herbes de provence",
+      "pattate",
+      "lait"
+    ],
+    "duration": 27,
+    "ustensile": ["poêle", "casserole", "presse purée"]
+  },
+  {
+    "name": "boeuf légumes vapeur herbes de provence",
+    "ingredients": [
+      "viande de boeuf",
+      "huile",
+      "epice herbes de provence",
+      "carotte",
+      "aricot",
+      "patate",
+      "eau"
+    ],
+    "duration": 34,
+    "ustensile": ["poêle", "casserole", "cuiseur vapeur"]
+  },
+  {
+    "name": "boeuf pâtes herbes de provence",
+    "ingredients": [
+      "viande de boeuf",
+      "huile",
+      "epice herbes de provence",
+      "pâtes",
+      "eau"
+    ],
+    "duration": 28,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "boeuf pâtes poivre",
+    "ingredients": ["viande de boeuf", "huile", "epice poivre", "pâtes", "eau"],
+    "duration": 28,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "poulet pâtes poivre",
+    "ingredients": [
+      "viande de poulet",
+      "huile",
+      "epice poivre",
+      "pâtes",
+      "eau"
+    ],
+    "duration": 20,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "poulet purée curry",
+    "ingredients": [
+      "viande de poulet",
+      "huile",
+      "epice curry",
+      "pattate",
+      "lait"
+    ],
+    "duration": 25,
+    "ustensile": ["poêle", "casserole", "presse purée"]
+  },
+  {
+    "name": "boeuf riz herbes de provence",
+    "ingredients": [
+      "viande de boeuf",
+      "huile",
+      "epice herbes de provence",
+      "riz",
+      "eau"
+    ],
+    "duration": 32,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "poulet pâtes curry",
+    "ingredients": ["viande de poulet", "huile", "epice curry", "pâtes", "eau"],
+    "duration": 21,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "boeuf pâtes curry",
+    "ingredients": ["viande de boeuf", "huile", "epice curry", "pâtes", "eau"],
+    "duration": 29,
+    "ustensile": ["poêle", "casserole"]
+  },
+  {
+    "name": "poulet pâtes herbes de provence",
+    "ingredients": [
+      "viande de poulet",
+      "huile",
+      "epice herbes de provence",
+      "pâtes",
+      "eau"
+    ],
+    "duration": 20,
+    "ustensile": ["poêle", "casserole"]
+  }
+]

@@ -1,0 +1,50 @@
+Nom: mouton pâtes herbes de provence 
+ Durée: 26 
+ Ingrédients: viande de mouton, huile, pâtes, eau, epice herbes de provence 
+ Ustensile: poêle, casserole, casserole 
+ 
+Nom: mouton pâtes lapin 
+ Durée: 39 
+ Ingrédients: viande de mouton, huile, pâtes, eau, viande de lapin, huile 
+ Ustensile: poêle, casserole, casserole, poêle, casserole 
+ 
+Nom: poulet pâtes mouton 
+ Durée: 36 
+ Ingrédients: viande de poulet, huile, pâtes, eau, viande de mouton, huile 
+ Ustensile: poêle, casserole, casserole, poêle, casserole 
+ 
+Nom: lapin purée herbes de provence 
+ Durée: 27 
+ Ingrédients: viande de lapin, huile, pattate, lait, epice herbes de provence 
+ Ustensile: poêle, casserole, presse purée, casserole 
+ 
+Nom: boeuf purée poulet 
+ Durée: 42 
+ Ingrédients: viande de boeuf, huile, pattate, lait, viande de poulet, huile 
+ Ustensile: poêle, casserole, presse purée, casserole, poêle, casserole 
+ 
+Nom: boeuf purée poulet 
+ Durée: 42 
+ Ingrédients: viande de boeuf, huile, pattate, lait, viande de poulet, huile 
+ Ustensile: poêle, casserole, presse purée, casserole, poêle, casserole 
+ 
+Nom: mouton légumes vapeur riz 
+ Durée: 40 
+ Ingrédients: viande de mouton, huile, carotte, aricot, patate, eau, riz, eau 
+ Ustensile: poêle, casserole, cuiseur vapeur, casserole 
+ 
+Nom: lapin pâtes mouton 
+ Durée: 39 
+ Ingrédients: viande de lapin, huile, pâtes, eau, viande de mouton, huile 
+ Ustensile: poêle, casserole, casserole, poêle, casserole 
+ 
+Nom: lapin purée légumes vapeur 
+ Durée: 37 
+ Ingrédients: viande de lapin, huile, pattate, lait, carotte, aricot, patate, eau 
+ Ustensile: poêle, casserole, presse purée, casserole, cuiseur vapeur 
+ 
+Nom: mouton purée purée 
+ Durée: 38 
+ Ingrédients: viande de mouton, huile, pattate, lait, pattate, lait 
+ Ustensile: poêle, casserole, presse purée, casserole, presse purée, casserole 
+ 
