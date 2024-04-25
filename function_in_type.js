@@ -1,4 +1,4 @@
-var _ = require('lodash');
+const _ = require('lodash');
 var tab_element = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'D', 'K'];
 
 var type = ["CA", "C", "P", "T"];
@@ -15,17 +15,17 @@ for(var i = 0; i < tab_element.length; i++) {
 //     array.sort(() => Math.random() - 0.5);
 // }
 
-function fisherYatesShuffle(arr) {
-    for (var i = arr.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));  // prend une carte aléatoirement
-      [arr[i], arr[j]] = [arr[j], arr[i]];          // swap les cartes de place
-    }
-}
+// function fisherYatesShuffle(arr) {
+//     for (var i = arr.length - 1; i > 0; i--) {
+//       var j = Math.floor(Math.random() * (i + 1));  // prend une carte aléatoirement
+//       [arr[i], arr[j]] = [arr[j], arr[i]];          // swap les cartes de place
+//     }
+// }
 
 console.log(pile_card)
 // shuffleArray(pile_card)
-fisherYatesShuffle(pile_card);
-// _.shuffle(pile_card)
+// fisherYatesShuffle(pile_card);
+_.shuffle(pile_card)
 console.log(pile_card)
 
 function numberRamdom(max, min) {
