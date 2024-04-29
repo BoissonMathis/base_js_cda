@@ -43,7 +43,7 @@ else
     value_card = Number(value_card)
 console.log(value_card)
 
-pile_card.splice(turn1, 1) // on eneleve la carte qui a été choisit
+pile_card.splice(turn1, 1) // on enleve la carte qui a été choisit
 console.log(turn1, pile_card[turn1])
 
 pile_card = pile_card.map(function (cart){
