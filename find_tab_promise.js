@@ -64,9 +64,10 @@ function findPeopleLoop(lastName, tab, path) {
         }
         if(element.children) {
             let value = findPeopleLoop(lastName, element.children, path + "/ " + element.firstName + " " + element.lastName )
-            if (value){
+            same_lastname = [...same_lastname, ...value]
+            // if (value){
                 
-            }else{ return same_lastname}
+            // }else{ return same_lastname}
         }
     }
     return same_lastname
