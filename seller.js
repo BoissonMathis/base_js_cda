@@ -28,7 +28,7 @@ function arrondir(number) {
     return Math.round((number) * 100) / 100;
 }
 
-//console.log(articles)
+// console.log(articles);
 
 // Creer une nouvelle propriété "price_unit_ht", "price_total_ht" et "price_total_ttc"
 articles = articles.map(function (e) {
@@ -84,6 +84,7 @@ for (var i = 0; i < number_users; i++) {
     let lastName = faker.person.lastName(gender)
 
     users.push({
+        id: i,
         username: faker.internet.userName({ firstName: firstName, lastName: lastName}),
         firstName: firstName,
         lastName: lastName,
@@ -117,6 +118,28 @@ users = users.map(function (e) {
         ...e,
         articles: userArticles
     }
+})
+
+// console.log(users)
+
+users = users.map(function (user) {
+
+    if(user.articles.length > 0){
+        // console.log(`${user.firstName} ${user.lastName} a ${user.articles.length} articles dans son panier`);
+    }
+
+    let totalPrice = 0;
+
+    user.articles.forEach((element) => {
+        // console.log(element);
+        let myArticle = _.find(articles, e => e.id === element);
+        // console.log(myArticle.price_unit_ttc, '€');
+        return totalPrice = totalPrice + myArticle.price_unit_ttc;
+    })
+
+    // console.log(`${totalPrice} €`)
+    // console.log({...user, depenseTotal: totalPrice})
+    return { ...user, totalDepense: totalPrice}
 })
 
 console.log(users)
