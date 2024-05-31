@@ -11,7 +11,6 @@ var quantity_max = 100;
 var tva_interval = 10;
 var articles = []
 
-
 for (var i = 0; i < number_elements; i++) {
     articles.push({
         name: faker.commerce.product(),
